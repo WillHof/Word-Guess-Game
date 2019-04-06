@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-3">Hangman!</h1>
+            <p class="lead">Play the classic hangman game with classic Rock and Metal Bands!</p>
+            <hr class="my-2">
+            <p>Press any key to start!</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <p>Wins: <span id="winNum"></span></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p>Word to Guess: <span id="hangman"></span></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p>Number of guesses remaining: <span id="guessNum"></span></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p>Letters already guessed: <span id="guessedLetters"></span></p>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/javascript/game.js"></script>
+</body>
+
+</html>
